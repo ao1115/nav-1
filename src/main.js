@@ -46,6 +46,8 @@ $(".addButton").on("click", () => {
     hashMap.push({
       url:url
     })
+    window.location.reload()
+    console.log('window.location.reload()')
     const string = JSON.stringify(hashMap); //只能存字符串，所以先转为字符串
     localStorage.setItem("x", string); //在本地的x里面存入哈希表
 });

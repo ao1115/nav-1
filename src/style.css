@@ -42,6 +42,12 @@ img {
   margin: 20px;
 }
 
+.globalHeader img {
+  width: 48px;
+  height: 48px;
+  margin-right: 4px;
+}
+
 @media (min-width: 500px) {
   body {
     width: 100%;
@@ -62,7 +68,7 @@ img {
 .searchForm {
   display: flex;
   justify-content: space-between;
-
+  align-items: center
 }
 
 @media (min-width: 500px) {
@@ -81,7 +87,8 @@ img {
   padding: 0 10px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  outline-style: none;
+  outline-color: rgb(144, 142, 85);
+  ;
 }
 
 .searchForm>button {
@@ -90,14 +97,16 @@ img {
   padding: 0 28px;
   border: none;
   border-radius: 4px;
-  background: #146ef4;
+  background: rgb(187, 184, 91);
   color: #fff;
   font-size: 16px;
   cursor: pointer;
+  height: 40px;
 }
 
 .searchForm>button:hover {
-  background: #0e52b8;
+  background: rgb(144, 142, 85);
+  ;
 }
 
 .globalMain {
@@ -155,7 +164,7 @@ img {
 .siteList .addButton:hover {
   transform: scale(1);
   transition: all 0.3s ease 0s;
-  background: rgba(144, 142, 85);
+  background: rgb(144, 142, 85);
   opacity: 1;
   border-radius: 8px;
   color: #fff;
