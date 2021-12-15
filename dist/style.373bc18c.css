@@ -134,6 +134,7 @@ img {
     margin-bottom: 10px;
     margin-right: 20px;
   }
+
 }
 
 .siteList>li {
@@ -156,8 +157,8 @@ img {
 }
 
 .siteList .site img {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
 }
 
 .siteList .site:hover,
@@ -177,8 +178,8 @@ img {
 }
 
 .siteList .site>.logo .icon {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
 }
 
 .siteList .site>.close {
@@ -199,9 +200,18 @@ img {
 }
 
 .siteList .site>.link {
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 6px;
   overflow: hidden;
+  margin-top: -2px;
+}
+
+@media (max-width: 500px) {
+  .siteList .last .addButton {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 8px;
+  }
 }
 
 .siteList .addButton {
@@ -215,14 +225,14 @@ img {
 }
 
 .siteList .addButton .logo {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
 }
 
 .siteList .addButton .logo .icon {
   width: 20px;
   height: 20px;
-  margin: 6px;
+  margin: 4px;
 }
 
 
@@ -232,4 +242,4 @@ img {
   margin-left: 6px;
 }
 
-/*# sourceMappingURL=style.89f1ef73.css.map */
+/*# sourceMappingURL=style.373bc18c.css.map */
